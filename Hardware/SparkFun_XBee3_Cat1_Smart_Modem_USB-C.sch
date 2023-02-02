@@ -26086,7 +26086,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_2-LAYER_PADS"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="USB_C" device="_4-LAYER-ISOLATED" value="USB Female Type C Connector"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
