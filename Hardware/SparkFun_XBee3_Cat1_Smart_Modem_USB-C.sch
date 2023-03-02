@@ -863,11 +863,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="V_USB">
-<description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
+<symbol name="VIN">
+<description>&lt;h3&gt;Input Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="V_USB" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="VIN" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
@@ -900,10 +900,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="V_USB" prefix="SUPPLY">
-<description>&lt;h3&gt;USB Voltage Supply&lt;/h3&gt;</description>
+<deviceset name="VIN" prefix="SUPPLY">
+<description>&lt;h3&gt;Input Voltage Supply&lt;/h3&gt;
+&lt;p&gt;Generic voltage input supply symbol.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="V_USB" x="0" y="0"/>
+<gate name="G$1" symbol="VIN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -16632,6 +16633,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.0322" y="0.509"/>
 </polygon>
 </package>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
+<package name="PRODUCTION_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Placeholder for notes on unique production processes, which may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Production Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DOCFIELD">
@@ -21436,6 +21465,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="49.69" y="10.37"/>
 </polygon>
 </symbol>
+<symbol name="SPECIAL_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;PCB Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.&lt;/p&gt;
+&lt;p&gt;Unique production processes may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="0.6985" size="1.27" layer="94" font="vector" ratio="20">Special Instructions</text>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FIDUCIAL" prefix="FD">
@@ -21698,6 +21738,45 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 </technologies>
 </device>
 <device name=".08_INCH" package="SFE_LOGO_NAME_.08">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPECIAL_INSTRUCTIONS" prefix="LOGO">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;&lt;table border=1 cellpadding=1&gt;
+&lt;tr&gt;&lt;th&gt;Ordering Instructions&lt;/th&gt;&lt;th&gt;Production Instructions&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Copper weight&lt;/li&gt;&lt;li&gt;Soldermask color&lt;/li&gt;&lt;li&gt;Silk color&lt;/li&gt;&lt;li&gt;PCB thickness&lt;/li&gt;&lt;li&gt;Number of layers&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PCB Standard:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;1.6mm FR4&lt;/li&gt;&lt;li&gt;1 oz copper&lt;/li&gt;&lt;li&gt;immersion silver plating&lt;/li&gt;&lt;li&gt;red soldermask&lt;/li&gt;&lt;li&gt;white silkscreen&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Special wash requirements&lt;/li&gt;&lt;li&gt;Depaneling instructions&lt;/li&gt;&lt;li&gt;Humidification&lt;/li&gt;&lt;li&gt;Glue curing&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Default text settings:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;0.07 inch&lt;/li&gt;
+&lt;li&gt;9% ratio&lt;/li&gt;
+&lt;li&gt;50% line distance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPECIAL_INSTRUCTIONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ORDERING" package="ORDERING_INSTRUCTIONS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PRODUCTION" package="PRODUCTION_INSTRUCTIONS">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -25826,10 +25905,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SHLD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="U5" library="SparkFun-DiscreteSemi" deviceset="TVS_DIODE_ARRAY" device="_DT1042-04SO-7" value="ESD Diode"/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
 <part name="U7" library="SparkFun-IC-Comms" deviceset="FT231X" device="S" value="FT231XS"/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -25844,9 +25923,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C8" library="SparkFun-Capacitors" deviceset="10PF" device="-0603-50V-5%" value="10pF"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_STAND"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_STAND"/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH"/>
+<part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 </parts>
 <sheets>
 <sheet>
@@ -25854,7 +25934,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="60.96" y="259.08" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
 <text x="223.774" y="261.366" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
 <text x="276.86" y="160.02" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
-<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v01</text>
+<text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
 <text x="193.04" y="160.02" size="2.54" layer="94" font="vector" align="center">Buttons and LEDs</text>
 <text x="215.9" y="254" size="1.778" layer="97" font="vector">VIN: 3.8 - 5.5V
@@ -26168,6 +26248,7 @@ USB Shield from Ground. </text>
 <attribute name="VALUE" x="266.7" y="58.674" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="330.2" y="33.02" smashed="yes"/>
+<instance part="LOGO4" gate="G$1" x="394.97" y="12.446" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -26788,43 +26869,6 @@ USB Shield from Ground. </text>
 <wire x1="198.12" y1="99.06" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="V_USB" class="0">
-<segment>
-<pinref part="J3" gate="J1" pin="VBUS"/>
-<wire x1="335.28" y1="243.84" x2="337.82" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="246.38" x2="337.82" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="G$1" pin="V_USB"/>
-</segment>
-<segment>
-<pinref part="U5" gate="U1" pin="VCC"/>
-<wire x1="368.3" y1="236.22" x2="368.3" y2="243.84" width="0.1524" layer="91" style="longdash"/>
-<pinref part="SUPPLY16" gate="G$1" pin="V_USB"/>
-<wire x1="368.3" y1="243.84" x2="368.3" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="185.42" y1="246.38" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="203.2" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="233.68" x2="200.66" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="243.84" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="243.84" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="243.84" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="241.3" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
-<junction x="195.58" y="243.84"/>
-<junction x="185.42" y="243.84"/>
-<pinref part="SUPPLY5" gate="G$1" pin="V_USB"/>
-</segment>
-<segment>
-<wire x1="259.08" y1="17.78" x2="264.16" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="17.78" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="53.34" x2="266.7" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="53.34" x2="266.7" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="G$1" pin="V_USB"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="J3" gate="J1" pin="CC2"/>
@@ -26879,6 +26923,43 @@ USB Shield from Ground. </text>
 <wire x1="78.74" y1="104.14" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
 <label x="73.66" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U7" gate="U$1" pin="USBDM"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="203.2" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="233.68" x2="200.66" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="243.84" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="243.84" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="243.84" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="241.3" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
+<junction x="195.58" y="243.84"/>
+<pinref part="SUPPLY5" gate="G$1" pin="VIN"/>
+<wire x1="185.42" y1="246.38" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
+<junction x="185.42" y="243.84"/>
+</segment>
+<segment>
+<pinref part="U5" gate="U1" pin="VCC"/>
+<wire x1="368.3" y1="236.22" x2="368.3" y2="243.84" width="0.1524" layer="91" style="longdash"/>
+<pinref part="SUPPLY16" gate="G$1" pin="VIN"/>
+<wire x1="368.3" y1="243.84" x2="368.3" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J3" gate="J1" pin="VBUS"/>
+<wire x1="335.28" y1="243.84" x2="337.82" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="VIN"/>
+<wire x1="337.82" y1="246.38" x2="337.82" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="259.08" y1="17.78" x2="264.16" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="17.78" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="53.34" x2="266.7" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="VIN"/>
+<wire x1="266.7" y1="55.88" x2="266.7" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
