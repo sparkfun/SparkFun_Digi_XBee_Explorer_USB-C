@@ -24906,7 +24906,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="WRL-17581" constant="no"/>
+<attribute name="PROD_ID" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -24934,7 +24934,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="WRL-17581" constant="no"/>
+<attribute name="PROD_ID" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -25273,482 +25273,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-RF">
-<description>&lt;h3&gt;SparkFun RF, WiFi, Cellular, and Bluetooth&lt;/h3&gt;
-In this library you'll find things that send or receive RF-- cellular modules, Bluetooth, WiFi, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="XBEE-SILK">
-<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules (Silkscreen Dimension Indicators)&lt;/h3&gt;
-&lt;p&gt;20-pin 2mm PTH headers. Silkscreen to indicate polarity and dimensions of XBee (non-Pro's)&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;XBee Mechanical Drawings&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/XBee-Connector.pdf"&gt;Header Mechanical Drawing&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8272"&gt;Header SparkFun Product Link&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="9.75" y1="21.25" x2="12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="21.25" x2="12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0.75" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="21.25" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="21.25" x2="-12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-5" y1="27.6" x2="-5.7" y2="27" width="0.2032" layer="21"/>
-<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.2032" layer="21"/>
-<wire x1="5" y1="27.6" x2="5.7" y2="27" width="0.2032" layer="21"/>
-<pad name="1" x="-11" y="20" drill="0.8" diameter="1.524"/>
-<pad name="2" x="-11" y="18" drill="0.8" diameter="1.524"/>
-<pad name="3" x="-11" y="16" drill="0.8" diameter="1.524"/>
-<pad name="4" x="-11" y="14" drill="0.8" diameter="1.524"/>
-<pad name="5" x="-11" y="12" drill="0.8" diameter="1.524"/>
-<pad name="6" x="-11" y="10" drill="0.8" diameter="1.524"/>
-<pad name="7" x="-11" y="8" drill="0.8" diameter="1.524"/>
-<pad name="8" x="-11" y="6" drill="0.8" diameter="1.524"/>
-<pad name="9" x="-11" y="4" drill="0.8" diameter="1.524"/>
-<pad name="10" x="-11" y="2" drill="0.8" diameter="1.524"/>
-<pad name="11" x="11" y="2" drill="0.8" diameter="1.524"/>
-<pad name="12" x="11" y="4" drill="0.8" diameter="1.524"/>
-<pad name="13" x="11" y="6" drill="0.8" diameter="1.524"/>
-<pad name="14" x="11" y="8" drill="0.8" diameter="1.524"/>
-<pad name="15" x="11" y="10" drill="0.8" diameter="1.524"/>
-<pad name="16" x="11" y="12" drill="0.8" diameter="1.524"/>
-<pad name="17" x="11" y="14" drill="0.8" diameter="1.524"/>
-<pad name="18" x="11" y="16" drill="0.8" diameter="1.524"/>
-<pad name="19" x="11" y="18" drill="0.8" diameter="1.524"/>
-<pad name="20" x="11" y="20" drill="0.8" diameter="1.524"/>
-<text x="0" y="9.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="8.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<text x="-9.5" y="20" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
-</package>
-<package name="XBEE-SMD">
-<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules (SMD pads)&lt;/h3&gt;
-&lt;p&gt;20-pin 2mm SMD headers.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;XBee Mechanical Drawings&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Prototyping/Sockets/xbeeheadersmd2.pdf"&gt;Header Mechanical Drawing&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/10030"&gt;Header SparkFun Product Link&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="1.3" x2="-12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0.75" x2="-12.25" y2="21.25" width="0.127" layer="51"/>
-<wire x1="-9.75" y1="21.25" x2="-9.75" y2="0.75" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="21.25" x2="-9.75" y2="21.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="0.75" x2="-9.75" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="20.6" x2="-9.75" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="21.25" x2="-12.25" y2="20.6" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="0.75" x2="9.75" y2="21.25" width="0.127" layer="51"/>
-<wire x1="12.25" y1="21.25" x2="12.25" y2="0.75" width="0.127" layer="51"/>
-<wire x1="9.75" y1="0.75" x2="12.25" y2="0.75" width="0.127" layer="51"/>
-<wire x1="9.75" y1="21.25" x2="12.25" y2="21.25" width="0.127" layer="51"/>
-<wire x1="9.75" y1="0.75" x2="9.75" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="0.75" x2="12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0.75" x2="12.25" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="20.6" x2="12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="21.25" x2="9.75" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="21.25" x2="9.75" y2="20.6" width="0.2032" layer="21"/>
-<smd name="1" x="-12.5" y="20" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="2" x="-9.5" y="18" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="3" x="-12.5" y="16" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="4" x="-9.5" y="14" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="5" x="-12.5" y="12" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="6" x="-9.5" y="10" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="7" x="-12.5" y="8" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="8" x="-9.5" y="6" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="9" x="-12.5" y="4" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="10" x="-9.5" y="2" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="11" x="12.5" y="2" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="12" x="9.5" y="4" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="13" x="12.5" y="6" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="14" x="9.5" y="8" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="15" x="12.5" y="10" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="16" x="9.5" y="12" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="17" x="12.5" y="14" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="18" x="9.5" y="16" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="19" x="12.5" y="18" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<smd name="20" x="9.5" y="20" dx="0.85" dy="1.7" layer="1" rot="R90"/>
-<text x="0" y="9.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="8.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<text x="-9.5" y="20" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
-</package>
-<package name="XBEE-LONGPAD">
-<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules (Long pads)&lt;/h3&gt;
-&lt;p&gt;20-pin 2mm PTH headers. Elongated annular rings to make soldering easier.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;XBee Mechanical Drawings&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/XBee-Connector.pdf"&gt;Header Mechanical Drawing&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8272"&gt;Header SparkFun Product Link&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="9.5595" y1="21.3135" x2="12.4405" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="12.4405" y1="21.25" x2="12.4405" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="12.4405" y1="0.75" x2="9.5595" y2="0.8135" width="0.2032" layer="21"/>
-<wire x1="9.5595" y1="21.3135" x2="9.5595" y2="0.8135" width="0.2032" layer="21"/>
-<wire x1="-9.5595" y1="21.25" x2="-12.4405" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="-12.4405" y1="21.25" x2="-12.4405" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.4405" y1="0.75" x2="-9.5595" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.5595" y1="21.25" x2="-9.5595" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<pad name="1" x="-11" y="20" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="2" x="-11" y="18" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="3" x="-11" y="16" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="4" x="-11" y="14" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="5" x="-11" y="12" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="6" x="-11" y="10" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="7" x="-11" y="8" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="8" x="-11" y="6" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="9" x="-11" y="4" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="10" x="-11" y="2" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="11" x="11" y="2" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="12" x="11" y="4" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="13" x="11" y="6" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="14" x="11" y="8" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="15" x="11" y="10" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="16" x="11" y="12" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="17" x="11" y="14" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="18" x="11" y="16" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="19" x="11" y="18" drill="0.8" diameter="1.2065" shape="long"/>
-<pad name="20" x="11" y="20" drill="0.8" diameter="1.2065" shape="long"/>
-<text x="0" y="9.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="8.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<text x="-9.373" y="20" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
-</package>
-<package name="XBEE-LOCK">
-<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules (Locking footprint)&lt;/h3&gt;
-&lt;p&gt;20-pin 2mm PTH headers - offset to "lock" headers in place for soldering.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;XBee Mechanical Drawings&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/XBee-Connector.pdf"&gt;Header Mechanical Drawing&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8272"&gt;Header SparkFun Product Link&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="9.75" y1="21.25" x2="12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="21.25" x2="12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0.75" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="21.25" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="21.25" x2="-12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<rectangle x1="-11.0998" y1="1.7272" x2="-10.8966" y2="2.2352" layer="51"/>
-<rectangle x1="-11.0998" y1="3.7338" x2="-10.8966" y2="4.2418" layer="51"/>
-<rectangle x1="-11.0998" y1="5.715" x2="-10.8966" y2="6.223" layer="51"/>
-<rectangle x1="-11.0998" y1="7.7216" x2="-10.8966" y2="8.2296" layer="51"/>
-<rectangle x1="-11.0998" y1="9.7282" x2="-10.8966" y2="10.2362" layer="51"/>
-<rectangle x1="-11.0998" y1="11.7602" x2="-10.8966" y2="12.2682" layer="51"/>
-<rectangle x1="-11.0998" y1="13.7414" x2="-10.8966" y2="14.2494" layer="51"/>
-<rectangle x1="-11.0998" y1="15.7226" x2="-10.8966" y2="16.2306" layer="51"/>
-<rectangle x1="-11.0998" y1="17.7292" x2="-10.8966" y2="18.2372" layer="51"/>
-<rectangle x1="-11.0998" y1="19.7358" x2="-10.8966" y2="20.2438" layer="51"/>
-<rectangle x1="10.8966" y1="1.7272" x2="11.0998" y2="2.2352" layer="51"/>
-<rectangle x1="10.8966" y1="3.7338" x2="11.0998" y2="4.2418" layer="51"/>
-<rectangle x1="10.8966" y1="5.715" x2="11.0998" y2="6.223" layer="51"/>
-<rectangle x1="10.8966" y1="7.7216" x2="11.0998" y2="8.2296" layer="51"/>
-<rectangle x1="10.8966" y1="9.7282" x2="11.0998" y2="10.2362" layer="51"/>
-<rectangle x1="10.8966" y1="11.7602" x2="11.0998" y2="12.2682" layer="51"/>
-<rectangle x1="10.8966" y1="13.7414" x2="11.0998" y2="14.2494" layer="51"/>
-<rectangle x1="10.8966" y1="15.7226" x2="11.0998" y2="16.2306" layer="51"/>
-<rectangle x1="10.8966" y1="17.7292" x2="11.0998" y2="18.2372" layer="51"/>
-<rectangle x1="10.8966" y1="19.7358" x2="11.0998" y2="20.2438" layer="51"/>
-<pad name="1" x="-11.1778" y="20" drill="0.7366" diameter="1.524"/>
-<pad name="2" x="-10.8222" y="18" drill="0.7366" diameter="1.524"/>
-<pad name="3" x="-11.1778" y="16" drill="0.7366" diameter="1.524"/>
-<pad name="4" x="-10.8222" y="14" drill="0.7366" diameter="1.524"/>
-<pad name="5" x="-11.1778" y="12" drill="0.7366" diameter="1.524"/>
-<pad name="6" x="-10.8222" y="10" drill="0.7366" diameter="1.524"/>
-<pad name="7" x="-11.1778" y="8" drill="0.7366" diameter="1.524"/>
-<pad name="8" x="-10.8222" y="6" drill="0.7366" diameter="1.524"/>
-<pad name="9" x="-11.1778" y="4" drill="0.7366" diameter="1.524"/>
-<pad name="10" x="-10.8222" y="2" drill="0.7366" diameter="1.524"/>
-<pad name="11" x="11.1778" y="2" drill="0.7366" diameter="1.524"/>
-<pad name="12" x="10.8222" y="4" drill="0.7366" diameter="1.524"/>
-<pad name="13" x="11.1778" y="6" drill="0.7366" diameter="1.524"/>
-<pad name="14" x="10.8222" y="8" drill="0.7366" diameter="1.524"/>
-<pad name="15" x="11.1778" y="10" drill="0.7366" diameter="1.524"/>
-<pad name="16" x="10.8222" y="12" drill="0.7366" diameter="1.524"/>
-<pad name="17" x="11.1778" y="14" drill="0.7366" diameter="1.524"/>
-<pad name="18" x="10.8222" y="16" drill="0.7366" diameter="1.524"/>
-<pad name="19" x="11.1778" y="18" drill="0.7366" diameter="1.524"/>
-<pad name="20" x="10.8222" y="20" drill="0.7366" diameter="1.524"/>
-<text x="0" y="9.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="8.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<text x="-9.5" y="20" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
-</package>
-<package name="XBEE">
-<description>&lt;h3&gt;Digi XBee and XBee-PRO RF Modules&lt;/h3&gt;
-&lt;p&gt;20-pin 2mm PTH headers.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Wireless/Zigbee/XBee-Dimensional.pdf"&gt;XBee Mechanical Drawings&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Prototyping/XBee-Connector.pdf"&gt;Header Mechanical Drawing&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8272"&gt;Header SparkFun Product Link&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-5" y1="27.6" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="21.25" x2="-5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="12.25" y1="21.25" x2="5" y2="27.6" width="0.127" layer="51"/>
-<wire x1="9.75" y1="21.25" x2="12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="21.25" x2="12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="12.25" y1="0.75" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="9.75" y1="21.25" x2="9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-12.25" y2="21.25" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="21.25" x2="-12.25" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-9.75" y1="21.25" x2="-9.75" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-12.25" y1="0.75" x2="-12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0.75" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="12.25" y2="0" width="0.127" layer="51"/>
-<wire x1="12.25" y1="0" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="0" x2="-12.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="-12.25" y1="-6.25" x2="12.25" y2="-6.25" width="0.127" layer="51"/>
-<pad name="1" x="-11" y="20" drill="0.8" diameter="1.524"/>
-<pad name="2" x="-11" y="18" drill="0.8" diameter="1.524" rot="R180"/>
-<pad name="3" x="-11" y="16" drill="0.8" diameter="1.524"/>
-<pad name="4" x="-11" y="14" drill="0.8" diameter="1.524"/>
-<pad name="5" x="-11" y="12" drill="0.8" diameter="1.524"/>
-<pad name="6" x="-11" y="10" drill="0.8" diameter="1.524"/>
-<pad name="7" x="-11" y="8" drill="0.8" diameter="1.524"/>
-<pad name="8" x="-11" y="6" drill="0.8" diameter="1.524"/>
-<pad name="9" x="-11" y="4" drill="0.8" diameter="1.524"/>
-<pad name="10" x="-11" y="2" drill="0.8" diameter="1.524"/>
-<pad name="11" x="11" y="2" drill="0.8" diameter="1.524"/>
-<pad name="12" x="11" y="4" drill="0.8" diameter="1.524"/>
-<pad name="13" x="11" y="6" drill="0.8" diameter="1.524"/>
-<pad name="14" x="11" y="8" drill="0.8" diameter="1.524"/>
-<pad name="15" x="11" y="10" drill="0.8" diameter="1.524"/>
-<pad name="16" x="11" y="12" drill="0.8" diameter="1.524"/>
-<pad name="17" x="11" y="14" drill="0.8" diameter="1.524"/>
-<pad name="18" x="11" y="16" drill="0.8" diameter="1.524"/>
-<pad name="19" x="11" y="18" drill="0.8" diameter="1.524"/>
-<pad name="20" x="11" y="20" drill="0.8" diameter="1.524"/>
-<text x="0" y="9.16" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="8.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<text x="-9.5" y="20" size="1.016" layer="21" font="vector" ratio="15" align="center-left">1</text>
-</package>
-</packages>
-<symbols>
-<symbol name="XBEE">
-<description>&lt;h3&gt;Digi XBee and XBee Pro&lt;/h3&gt;
-&lt;p&gt;XBees are tiny blue chips that can communicate wirelessly with each other. They can do simple things, like replacing a couple of wires in serial communication, which is nice when you want to make a remote for your paintball vehicle.&lt;/p&gt;</description>
-<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
-<wire x1="15.24" y1="12.7" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
-<pin name="CTS" x="17.78" y="-10.16" length="short" direction="out" function="dot" rot="R180"/>
-<pin name="DIN" x="-17.78" y="5.08" length="short" direction="in"/>
-<pin name="DIO0" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="DIO1" x="17.78" y="7.62" length="short" rot="R180"/>
-<pin name="DIO2" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="DIO3" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="DIO4" x="17.78" y="-12.7" length="short" rot="R180"/>
-<pin name="DIO5" x="17.78" y="-2.54" length="short" rot="R180"/>
-<pin name="DIO9" x="17.78" y="-7.62" length="short" rot="R180"/>
-<pin name="DIO11" x="-17.78" y="-5.08" length="short"/>
-<pin name="DIO12" x="-17.78" y="2.54" length="short"/>
-<pin name="DOUT" x="-17.78" y="7.62" length="short" direction="out"/>
-<pin name="DTR" x="-17.78" y="-10.16" length="short" function="dot"/>
-<pin name="GND" x="-17.78" y="-12.7" length="short" direction="pwr"/>
-<pin name="RES@8" x="-17.78" y="-7.62" length="short"/>
-<pin name="RES@14" x="17.78" y="-5.08" length="short" rot="R180"/>
-<pin name="RESET" x="-17.78" y="0" length="short" direction="in" function="dot"/>
-<pin name="RSSI" x="-17.78" y="-2.54" length="short"/>
-<pin name="RTS" x="17.78" y="0" length="short" direction="in" function="dot" rot="R180"/>
-<pin name="VDD" x="-17.78" y="10.16" length="short" direction="pwr"/>
-<text x="-15.24" y="12.954" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-15.24" y="-15.494" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="XBEE" prefix="JP" uservalue="yes">
-<description>&lt;h3&gt;Digi XBee and XBee Pro&lt;/h3&gt;
-&lt;p&gt;XBees are tiny blue chips that can communicate wirelessly with each other. They can do simple things, like replacing a couple of wires in serial communication, which is nice when you want to make a remote for your paintball vehicle.&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/pages/xbee_guide"&gt;SparkFun XBee Buying Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11812"&gt;SparkFun XBee Explorer USB&lt;/a&gt; (WRL-11812)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8276"&gt;Breakout Board for XBee Module&lt;/a&gt; (WRL-8276)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11373"&gt;SparkFun XBee Explorer Regulated&lt;/a&gt; (WRL-11373)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11697"&gt;SparkFun XBee Explorer Dongle&lt;/a&gt; (WRL-11697)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12847"&gt;SparkFun XBee Shield&lt;/a&gt; (WRL-12847)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13225"&gt;SparkFun XBee Explorer Serial&lt;/a&gt; (WRL-13225)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="XBEE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SILK" package="XBEE-SILK">
-<connects>
-<connect gate="G$1" pin="CTS" pad="12"/>
-<connect gate="G$1" pin="DIN" pad="3"/>
-<connect gate="G$1" pin="DIO0" pad="20"/>
-<connect gate="G$1" pin="DIO1" pad="19"/>
-<connect gate="G$1" pin="DIO11" pad="7"/>
-<connect gate="G$1" pin="DIO12" pad="4"/>
-<connect gate="G$1" pin="DIO2" pad="18"/>
-<connect gate="G$1" pin="DIO3" pad="17"/>
-<connect gate="G$1" pin="DIO4" pad="11"/>
-<connect gate="G$1" pin="DIO5" pad="15"/>
-<connect gate="G$1" pin="DIO9" pad="13"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="RES@14" pad="14"/>
-<connect gate="G$1" pin="RES@8" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="5"/>
-<connect gate="G$1" pin="RSSI" pad="6"/>
-<connect gate="G$1" pin="RTS" pad="16"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="XBEE-SMD">
-<connects>
-<connect gate="G$1" pin="CTS" pad="12"/>
-<connect gate="G$1" pin="DIN" pad="3"/>
-<connect gate="G$1" pin="DIO0" pad="20"/>
-<connect gate="G$1" pin="DIO1" pad="19"/>
-<connect gate="G$1" pin="DIO11" pad="7"/>
-<connect gate="G$1" pin="DIO12" pad="4"/>
-<connect gate="G$1" pin="DIO2" pad="18"/>
-<connect gate="G$1" pin="DIO3" pad="17"/>
-<connect gate="G$1" pin="DIO4" pad="11"/>
-<connect gate="G$1" pin="DIO5" pad="15"/>
-<connect gate="G$1" pin="DIO9" pad="13"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="RES@14" pad="14"/>
-<connect gate="G$1" pin="RES@8" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="5"/>
-<connect gate="G$1" pin="RSSI" pad="6"/>
-<connect gate="G$1" pin="RTS" pad="16"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-09042" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LONGPAD" package="XBEE-LONGPAD">
-<connects>
-<connect gate="G$1" pin="CTS" pad="12"/>
-<connect gate="G$1" pin="DIN" pad="3"/>
-<connect gate="G$1" pin="DIO0" pad="20"/>
-<connect gate="G$1" pin="DIO1" pad="19"/>
-<connect gate="G$1" pin="DIO11" pad="7"/>
-<connect gate="G$1" pin="DIO12" pad="4"/>
-<connect gate="G$1" pin="DIO2" pad="18"/>
-<connect gate="G$1" pin="DIO3" pad="17"/>
-<connect gate="G$1" pin="DIO4" pad="11"/>
-<connect gate="G$1" pin="DIO5" pad="15"/>
-<connect gate="G$1" pin="DIO9" pad="13"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="RES@14" pad="14"/>
-<connect gate="G$1" pin="RES@8" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="5"/>
-<connect gate="G$1" pin="RSSI" pad="6"/>
-<connect gate="G$1" pin="RTS" pad="16"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LOCK" package="XBEE-LOCK">
-<connects>
-<connect gate="G$1" pin="CTS" pad="12"/>
-<connect gate="G$1" pin="DIN" pad="3"/>
-<connect gate="G$1" pin="DIO0" pad="20"/>
-<connect gate="G$1" pin="DIO1" pad="19"/>
-<connect gate="G$1" pin="DIO11" pad="7"/>
-<connect gate="G$1" pin="DIO12" pad="4"/>
-<connect gate="G$1" pin="DIO2" pad="18"/>
-<connect gate="G$1" pin="DIO3" pad="17"/>
-<connect gate="G$1" pin="DIO4" pad="11"/>
-<connect gate="G$1" pin="DIO5" pad="15"/>
-<connect gate="G$1" pin="DIO9" pad="13"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="RES@14" pad="14"/>
-<connect gate="G$1" pin="RES@8" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="5"/>
-<connect gate="G$1" pin="RSSI" pad="6"/>
-<connect gate="G$1" pin="RTS" pad="16"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="XBEE">
-<connects>
-<connect gate="G$1" pin="CTS" pad="12"/>
-<connect gate="G$1" pin="DIN" pad="3"/>
-<connect gate="G$1" pin="DIO0" pad="20"/>
-<connect gate="G$1" pin="DIO1" pad="19"/>
-<connect gate="G$1" pin="DIO11" pad="7"/>
-<connect gate="G$1" pin="DIO12" pad="4"/>
-<connect gate="G$1" pin="DIO2" pad="18"/>
-<connect gate="G$1" pin="DIO3" pad="17"/>
-<connect gate="G$1" pin="DIO4" pad="11"/>
-<connect gate="G$1" pin="DIO5" pad="15"/>
-<connect gate="G$1" pin="DIO9" pad="13"/>
-<connect gate="G$1" pin="DOUT" pad="2"/>
-<connect gate="G$1" pin="DTR" pad="9"/>
-<connect gate="G$1" pin="GND" pad="10"/>
-<connect gate="G$1" pin="RES@14" pad="14"/>
-<connect gate="G$1" pin="RES@8" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="5"/>
-<connect gate="G$1" pin="RSSI" pad="6"/>
-<connect gate="G$1" pin="RTS" pad="16"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25781,16 +25305,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="-0603-WE" value="Red"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="PLED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="ALED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH" value="SFE_LOGO_NAME.1_INCH"/>
@@ -25808,7 +25331,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J2" library="xbee_smart_modem" deviceset="XBEE_UPDATE" device="XBEE_SMD_SILK"/>
+<part name="J2" library="xbee_smart_modem" deviceset="XBEE_UPDATE" device="XBEE_SMD"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -25821,7 +25344,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="RLED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -25839,7 +25362,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="JP1" library="SparkFun-RF" deviceset="XBEE" device="SMD"/>
 <part name="U7" library="SparkFun-IC-Comms" deviceset="FT231X" device="S" value="FT231XS"/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -25854,6 +25376,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_STAND"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_STAND"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25969,9 +25492,6 @@ USB Shield from Ground. </text>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="50.8" y="238.76" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="50.8" y="241.554" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY5" gate="G$1" x="185.42" y="246.38" smashed="yes">
-<attribute name="VALUE" x="185.42" y="249.174" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="PLED" gate="G$1" x="177.8" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="172.72" y="93.472" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
@@ -26126,10 +25646,6 @@ USB Shield from Ground. </text>
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="JP1" gate="G$1" x="477.52" y="215.9" smashed="yes">
-<attribute name="NAME" x="462.28" y="228.854" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="462.28" y="200.406" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
 <instance part="U7" gate="U$1" x="91.44" y="99.06" smashed="yes">
 <attribute name="NAME" x="81.28" y="117.094" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="80.772" size="1.778" layer="96" align="top-left"/>
@@ -26178,6 +25694,9 @@ USB Shield from Ground. </text>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="266.7" y="55.88" smashed="yes">
 <attribute name="VALUE" x="266.7" y="58.674" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="185.42" y="246.38" smashed="yes">
+<attribute name="VALUE" x="185.42" y="249.174" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -26738,21 +26257,6 @@ USB Shield from Ground. </text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<wire x1="185.42" y1="246.38" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="G$1" pin="VIN"/>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="203.2" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="233.68" x2="200.66" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="243.84" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="243.84" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="243.84" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="241.3" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
-<junction x="195.58" y="243.84"/>
-<junction x="185.42" y="243.84"/>
-</segment>
-<segment>
 <wire x1="259.08" y1="17.78" x2="264.16" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="17.78" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -26836,6 +26340,21 @@ USB Shield from Ground. </text>
 <wire x1="368.3" y1="236.22" x2="368.3" y2="243.84" width="0.1524" layer="91" style="longdash"/>
 <pinref part="SUPPLY16" gate="G$1" pin="V_USB"/>
 <wire x1="368.3" y1="243.84" x2="368.3" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="185.42" y1="246.38" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="203.2" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="233.68" x2="200.66" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="243.84" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="243.84" x2="185.42" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="243.84" x2="185.42" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="241.3" x2="195.58" y2="243.84" width="0.1524" layer="91"/>
+<junction x="195.58" y="243.84"/>
+<junction x="185.42" y="243.84"/>
+<pinref part="SUPPLY5" gate="G$1" pin="V_USB"/>
 </segment>
 </net>
 <net name="N$5" class="0">
