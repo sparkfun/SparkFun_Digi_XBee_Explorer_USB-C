@@ -12212,8 +12212,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="D2" library="SparkFun-LED" package="LED-0603" value="Red" x="19.812" y="2.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.447" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-16511" x="19.812" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="Red" x="19.177" y="2.54" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-17976" x="19.812" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D3" library="SparkFun-LED" package="LED-0603" value="BLUE" x="22.352" y="2.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.987" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -12787,7 +12786,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="J2" pad="6"/>
 <contactref element="R2" pad="1"/>
 <contactref element="J6" pad="6"/>
-<wire x1="8.28" y1="30.32" x2="8.44" y2="30.48" width="0.254" layer="1"/>
 <wire x1="8.28" y1="30.32" x2="8.28" y2="29.693" width="0.254" layer="1"/>
 <wire x1="10.287" y1="29.083" x2="11.43" y2="27.94" width="0.254" layer="1"/>
 <wire x1="8.28" y1="29.693" x2="8.89" y2="29.083" width="0.254" layer="1"/>
@@ -13111,8 +13109,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="7.747" y1="11.557" x2="7.747" y2="7.62" width="0.762" layer="15"/>
 <wire x1="7.747" y1="7.62" x2="7.747" y2="6.985" width="0.762" layer="15"/>
 <via x="7.747" y="6.985" extent="1-16" drill="0.3048"/>
-<wire x1="11.43" y1="8.382" x2="10.668" y2="7.62" width="0.254" layer="1"/>
 <via x="10.668" y="7.62" extent="1-16" drill="0.3048"/>
+<wire x1="11.049" y1="8.001" x2="10.668" y2="7.62" width="0.254" layer="1"/>
 <wire x1="10.668" y1="7.62" x2="7.747" y2="7.62" width="0.254" layer="15"/>
 <via x="18.8468" y="18.4658" extent="1-16" drill="0.3048"/>
 <wire x1="18.415" y1="18.034" x2="18.8468" y2="18.4658" width="0.762" layer="15"/>
@@ -13140,7 +13138,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="8.001" y="5.588"/>
 <vertex x="8.001" y="7.239"/>
 </polygon>
-<wire x1="11.43" y1="8.382" x2="11.43" y2="8.7849" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="8.7849" x2="11.43" y2="8.382" width="0.254" layer="1"/>
+<wire x1="11.43" y1="8.382" x2="11.049" y2="8.001" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -13154,12 +13153,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="19,16,172a57798e5f215e"/>
 <approved hash="19,16,9f9391d3bb51bf93"/>
 <approved hash="19,16,299a2d797978859a"/>
-<approved hash="19,16,789379d35bd65b9f"/>
-<approved hash="19,16,2cd32d22d528d4df"/>
-<approved hash="19,16,f8d7f924d92ed8db"/>
 <approved hash="19,16,58db5ff83fc838db"/>
-<approved hash="19,16,585b5e783c483b5b"/>
-<approved hash="19,16,8cdf8bfe33ce34df"/>
+<approved hash="5,1,910ee16a601b1c06"/>
+<approved hash="19,16,dae721f87dc87ae7"/>
+<approved hash="19,16,1a5f1e78fc48fb5f"/>
 </errors>
 </board>
 </drawing>

@@ -25855,7 +25855,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_10" device="NO_SILK_PTH_FEMALE"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="-0603-WE" value="Red"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="Red"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
@@ -26017,8 +26017,8 @@ USB Shield from Ground. </text>
 <attribute name="VALUE" x="181.864" y="114.808" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="177.8" y="106.68" smashed="yes" rot="MR0">
-<attribute name="NAME" x="173.99" y="104.775" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="175.26" y="104.013" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
+<attribute name="NAME" x="175.006" y="105.791" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="174.752" y="104.775" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 </instance>
 <instance part="GND12" gate="1" x="177.8" y="83.82" smashed="yes">
 <attribute name="VALUE" x="177.8" y="83.566" size="1.778" layer="96" font="vector" align="top-center"/>
