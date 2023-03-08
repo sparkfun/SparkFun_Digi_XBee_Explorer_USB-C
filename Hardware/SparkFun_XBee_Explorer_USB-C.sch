@@ -367,6 +367,75 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="4.7UF" prefix="C">
+<description>&lt;h3&gt;4.7µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="-0603-6.3V-(10%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08280"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-16V-(+80/-20%)" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10300" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-35V-(20%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14106"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-6.3V-20%-X5R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14240"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-50V-(10%)" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15457" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="0.1UF" prefix="C">
 <description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -25866,7 +25935,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="PLED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="ALED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_3MM" value="QWIIC_LOGO_3MM"/>
+<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM" value="QWIIC_LOGO_4MM"/>
 <part name="U2" library="SparkFun-IC-Power" deviceset="AP63203" device="" value="AP63203"/>
 <part name="L1" library="SparkFun-Coils" deviceset="3.9UH" device="" value="3.9UH"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
@@ -25914,10 +25983,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="10PF" device="-0603-50V-5%" value="10pF"/>
@@ -25927,17 +25992,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
+<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="60.96" y="259.08" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
+<text x="76.2" y="259.08" size="1.778" layer="97" font="vector" align="center">VCC Range: 3.3V - 4.3V</text>
 <text x="223.774" y="263.906" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
 <text x="276.86" y="157.48" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
 <text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
 <text x="193.04" y="157.48" size="2.54" layer="94" font="vector" align="center">Buttons and LEDs</text>
-<text x="215.9" y="256.54" size="1.778" layer="97" font="vector">VIN: 3.8 - 5.5V
+<text x="223.52" y="256.54" size="1.778" layer="97" font="vector" align="center">VIN: 3.8 - 5.5V
 Iout: 2A Max</text>
 <text x="276.86" y="152.4" size="1.778" layer="97" font="vector" align="center">Cut I2C jumper to remove pullups.</text>
 <text x="190.5" y="152.4" size="1.778" layer="97" font="vector" align="center">Cut respective jumper to sever power to LED.</text>
@@ -26203,24 +26271,12 @@ USB Shield from Ground. </text>
 <attribute name="VALUE" x="73.66" y="76.2" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C14" gate="G$1" x="43.18" y="99.06" smashed="yes">
-<attribute name="NAME" x="44.704" y="101.981" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="44.704" y="96.901" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="45.339" y="101.854" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="45.339" y="92.964" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="C11" gate="G$1" x="38.1" y="99.06" smashed="yes">
-<attribute name="NAME" x="34.544" y="101.981" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="30.734" y="96.901" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND5" gate="1" x="38.1" y="91.44" smashed="yes">
-<attribute name="VALUE" x="35.56" y="88.9" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="SUPPLY6" gate="G$1" x="38.1" y="106.68" smashed="yes">
-<attribute name="VALUE" x="38.1" y="109.474" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY2" gate="G$1" x="43.18" y="106.68" smashed="yes">
-<attribute name="VALUE" x="43.18" y="109.474" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="GND8" gate="1" x="43.18" y="91.44" smashed="yes">
-<attribute name="VALUE" x="40.64" y="88.9" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="40.513" y="101.854" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="40.259" y="92.964" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="76.2" y="116.84" smashed="yes">
 <attribute name="VALUE" x="76.2" y="119.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -26249,6 +26305,16 @@ USB Shield from Ground. </text>
 </instance>
 <instance part="LOGO1" gate="G$1" x="330.2" y="33.02" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="394.97" y="12.446" smashed="yes"/>
+<instance part="C12" gate="G$1" x="48.26" y="99.06" smashed="yes">
+<attribute name="NAME" x="50.927" y="101.854" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="50.419" y="91.694" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="SUPPLY12" gate="G$1" x="48.26" y="111.76" smashed="yes">
+<attribute name="VALUE" x="48.26" y="114.554" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="GND9" gate="1" x="48.26" y="86.36" smashed="yes">
+<attribute name="VALUE" x="45.72" y="83.82" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26429,13 +26495,17 @@ USB Shield from Ground. </text>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="93.98" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
+<wire x1="38.1" y1="91.44" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="96.52" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="43.18" y1="96.52" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="48.26" y1="96.52" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="91.44" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
+<junction x="43.18" y="91.44"/>
+<junction x="48.26" y="91.44"/>
+<wire x1="38.1" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U7" gate="U$1" pin="GND@6"/>
@@ -26519,14 +26589,18 @@ USB Shield from Ground. </text>
 <pinref part="J6" gate="J1" pin="1"/>
 </segment>
 <segment>
-<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="104.14" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="104.14" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="104.14" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="111.76" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+<wire x1="48.26" y1="106.68" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
+<junction x="43.18" y="106.68"/>
+<junction x="48.26" y="106.68"/>
+<wire x1="38.1" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U7" gate="U$1" pin="VCCIO"/>
