@@ -25932,15 +25932,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="60.96" y="259.08" size="1.778" layer="97" font="vector">VCC Range: 3.3V - 4.3V</text>
-<text x="223.774" y="261.366" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
-<text x="276.86" y="160.02" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
+<text x="223.774" y="263.906" size="2.54" layer="94" font="vector" align="center">Buck Converter - AP63203</text>
+<text x="276.86" y="157.48" size="2.54" layer="94" font="vector" align="center">Qwiic - I2C</text>
 <text x="424.18" y="7.62" size="2.54" layer="94" font="vector" align="center">v10</text>
 <text x="363.22" y="10.16" size="2.54" layer="94" font="vector" align="center">Elias Santistevan</text>
-<text x="193.04" y="160.02" size="2.54" layer="94" font="vector" align="center">Buttons and LEDs</text>
-<text x="215.9" y="254" size="1.778" layer="97" font="vector">VIN: 3.8 - 5.5V
+<text x="193.04" y="157.48" size="2.54" layer="94" font="vector" align="center">Buttons and LEDs</text>
+<text x="215.9" y="256.54" size="1.778" layer="97" font="vector">VIN: 3.8 - 5.5V
 Iout: 2A Max</text>
-<text x="276.86" y="154.94" size="1.778" layer="97" font="vector" align="center">Cut I2C jumper to remove pullups.</text>
-<text x="190.5" y="154.94" size="1.778" layer="97" font="vector" align="center">Cut respective jumper to sever power to LED.</text>
+<text x="276.86" y="152.4" size="1.778" layer="97" font="vector" align="center">Cut I2C jumper to remove pullups.</text>
+<text x="190.5" y="152.4" size="1.778" layer="97" font="vector" align="center">Cut respective jumper to sever power to LED.</text>
 <text x="76.2" y="264.16" size="2.54" layer="94" font="vector" align="center">RF Module - XBee 3 </text>
 <text x="279.4" y="83.82" size="2.54" layer="94" font="vector" align="center">0.1" Headers</text>
 <text x="375.666" y="206.248" size="1.778" layer="97" font="vector">Cut SHLD jumper to disconnect
@@ -25959,7 +25959,7 @@ USB Shield from Ground. </text>
 <wire x1="330.2" y1="88.9" x2="330.2" y2="167.64" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="228.6" y1="88.9" x2="330.2" y2="88.9" width="0.1524" layer="97" style="shortdash"/>
 <text x="78.74" y="157.48" size="2.54" layer="94" font="vector" align="center">USB to UART - FT231XS</text>
-<text x="353.06" y="261.62" size="2.54" layer="94" font="vector">USB-C </text>
+<text x="353.06" y="264.16" size="2.54" layer="94" font="vector">USB-C </text>
 </plain>
 <instances>
 <instance part="J4" gate="G$1" x="289.56" y="121.92" smashed="yes">
@@ -26129,7 +26129,7 @@ USB Shield from Ground. </text>
 <instance part="H4" gate="G$1" x="421.64" y="27.94" smashed="yes"/>
 <instance part="D4" gate="G$1" x="198.12" y="106.68" smashed="yes">
 <attribute name="NAME" x="202.946" y="106.553" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="205.74" y="102.743" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="207.518" y="102.489" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="R2" gate="G$1" x="198.12" y="116.84" smashed="yes" rot="MR270">
 <attribute name="NAME" x="202.184" y="119.126" size="1.778" layer="95" font="vector" rot="MR180" align="bottom-center"/>
@@ -26148,7 +26148,7 @@ USB Shield from Ground. </text>
 <attribute name="VALUE" x="266.7" y="9.906" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
 <instance part="J3" gate="J1" x="322.58" y="236.22" smashed="yes">
-<attribute name="VALUE" x="320.04" y="223.774" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<attribute name="VALUE" x="299.72" y="223.774" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="320.04" y="246.634" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND4" gate="1" x="337.82" y="210.82" smashed="yes" rot="MR0">
