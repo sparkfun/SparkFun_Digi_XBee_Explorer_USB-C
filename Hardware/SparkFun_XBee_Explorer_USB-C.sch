@@ -26081,8 +26081,8 @@ USB Shield from Ground. </text>
 <attribute name="NAME" x="248.92" y="14.732" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="R11" gate="G$1" x="177.8" y="116.84" smashed="yes" rot="MR270">
-<attribute name="NAME" x="181.61" y="118.872" size="1.778" layer="95" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="181.864" y="114.808" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
+<attribute name="NAME" x="173.99" y="118.872" size="1.778" layer="95" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="174.244" y="114.808" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="177.8" y="106.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="175.006" y="105.791" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -26793,9 +26793,9 @@ USB Shield from Ground. </text>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
-<label x="200.66" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="193.04" y1="121.92" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
+<label x="200.66" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="193.04" y1="121.92" x2="193.04" y2="127" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="297.18" y1="33.02" x2="299.72" y2="33.02" width="0.1524" layer="91"/>
