@@ -2,11 +2,6 @@
 icon: material/book-open-page-variant
 ---
 
-# Hookup Guide
-
-
-## Introduction
-<!-- Single Product Card -->
 
 <div class="grid cards desc" markdown>
 
@@ -16,8 +11,8 @@ icon: material/book-open-page-variant
 
     ---
 
-    <figre markdown>
-    ![Product Thumbnail](<Product Image Link>)
+    <figure markdown>
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg)
     </figure></a>
 
     <center>
@@ -26,8 +21,6 @@ icon: material/book-open-page-variant
     </article>
     </center>
 
--    Short product description with a link to the product page in the first or second sentence.
-
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22043){ .md-button .md-button--primary }
     </center>
@@ -35,86 +28,66 @@ icon: material/book-open-page-variant
 </div>
 
 
-<!-- Double Product Card -->
-Short product description with a link to the product pages in the first or second sentence.
-
-<section class="grid cards col-2"markdown>
-
--	<a href="https://www.sparkfun.com/products/22043">
-	**SparkFun <Product Name>**<br>
-	**SKU:** WRL-22043
-
-	---
-
-	<figure markdown>
-	![Product Thumbnail](<Product Image Link>)
-	</figure>
-	</a>
-
-    Short product description
-
-	<center>
-    [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22043){ .md-button .md-button--primary }
-    </center>
-
--	<a href="https://www.sparkfun.com/products/22043">
-	**SparkFun <Product Name>**<br>
-	**SKU:** WRL-22043
-
-	---
-
-	<figure markdown>
-	![Product Thumbnail](<Product Image Link>)
-	</figure></a>
-
-    Short product description
-
-	<center>
-	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22043){ .md-button .md-button--primary }
-	</center>
-
-</section>
-
 
 ## Required Materials
-To get started, users will need a few items. Now some users may already have a few of these items, feel free to modify your cart accordingly.
 
-<div class="grid cards" markdown>
+To follow along with this tutorial, you will need the following materials. You may not need everything though depending on what you have. Add it to your cart, read through the guide, and adjust the cart as necessary.
 
--   <a href="https://www.sparkfun.com/products/22043">
-    <figure markdown>
-    ![Product Thumbnail](<Product Image Link>)
-    </figure>
-
-    ---
-
-    **SparkFun XBee Explorer USB-C**<br>
-    WRL-22043</a>
-
-</div>
+<table style="border-style:none">
+    <tr>
+        <td>
+            <a href="https://www.sparkfun.com/products/22043">
+                <center><img src="https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg" alt="SparkFun XBee Explorer USB-C" height="140"></center>
+                <h3 class="title">SparkFun XBee Explorer USB-C</h3>
+            </a>
+            WRL-21636
+        </td>
+        <td>
+            <a href="https://www.sparkfun.com/products/14743">
+                <center><img src="https://cdn.sparkfun.com/c/178-100/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg" alt="USB 3.1 Cable A to C - 3 Foot" height="140">
+                </center>
+                <h3 class="title">USB 3.1 Cable A to C - 3 Foot</h3>
+            </a>
+            CAB-14743
+        </td>
+    </tr>
+</table>
 
 
 ## Suggested Reading
-Below, are a few tutorials that may help users familiarize themselves with various aspects of this product:
 
-<div class="grid cards" markdown align="center">
+As a more professionally oriented product, we will skip over the more fundamental tutorials (i.e. [**Ohm's Law**](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law) and [**What is Electricity?**](https://learn.sparkfun.com/tutorials/what-is-electricity)). However, below are a few tutorials that may help users familiarize themselves with various aspects of the board.
 
--   <a href="https://learn.sparkfun.com/tutorials/<Tutorial ID>">
-    <figure markdown>
-    ![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/<Thumbnail Link>.jpg)
-    </figure>
 
-    ---
+<table style="border-style:none">
+    <tr>
+        <td align="center">
+            <a href="https://www.sparkfun.com/pages/xbee_guide">XBee Buying Guide<br>
+            <img src="https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/3/5/3/action-usb.jpg" ></a>
+        </td>
+        <td align="center">
+            <a href="https://learn.sparkfun.com/tutorials/exploring-xbees-and-xctu">Exploring XBees and XCTU<br>
+            <img src="https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/2/2/3/xbee-wire.jpg"></a>
+        </td>
+        <td align="center">
+            <a href="https://learn.sparkfun.com/tutorials/serial-communication">Serial Communication<br>
+            <img src="https://cdn.sparkfun.com/c/178-100//assets/7/d/f/9/9/50d24be7ce395f1f6c000000.jpg"></a>
+        </td>
+    </tr>
+</table>
 
-    **<Tutorial Name>**</a>
-
--   <a href="https://docs.sparkfun.com/<GitHub Repo Name>">
-    <figure markdown>
-	![Tutorial Thumbnail](https://docs.sparkfun.com/<GitHub Repo Name>/docs/assets/img/thumbnail.jpg)
-	</figure>
-
-    ---
-
-    **<Product Name> Hookup Guide**</a>
-
+<center>
+<div align="center">
+    <div style="top:5px;left:5px;background-color:Gray;position:relative">
+        <div style="top:-5px;left:-5px;background-color:#ffffff;position:relative;border:1px solid black;">
+            <a href="https://www.sparkfun.com/qwiic"><img src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo.png" alt="Qwiic Connect System" title="Qwiic Connect System"></a>
+        </div>
+    </div>
 </div>
+</center>
+
+One of the new, advanced features of our Processor Boards is that they take advantage of the [Qwiic connect system](https://www.sparkfun.com/qwiic). We recommend familiarizing yourself with the **Logic Levels** and **I<sup>2</sup>C** tutorials.  Click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
+
+<center>
+    <iframe width="600" height="327" src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
