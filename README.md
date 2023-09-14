@@ -15,7 +15,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](http://docs.sparkfun.com/SparkFun_XBee_Explorer_USB-C)** - Basic hookup guide for the SparkFUn XBee Explorer USB-C.
 
 
 License Information
