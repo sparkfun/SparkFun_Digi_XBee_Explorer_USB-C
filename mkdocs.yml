@@ -253,7 +253,7 @@ nav:
     - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
-    - Software Setup: software_setup.md
+    - Software Setup: software_setup_and_programming.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md

@@ -7,4 +7,4 @@ For more resources related to the SparkFun XBee Explorer USB-C, check out the li
 * [Schematic](assets/board_files/SparkFun_XBee_Explorer_USB-C-Schematic.pdf) (PDF)
 * [Eagle Files](assets/board_files/SparkFun_XBee_Explorer_USB-C-EagleFiles.zip) (ZIP)
 * [Board Dimensions](assets/board_files/SparkFun_XBee_Explorer_USB-C_BoardDimensions.png) (PDF)
-* [Hardware GitHub Respository](https://github.com/sparkfun/SparkFun_XBee_Development_Board)
+* [Hardware GitHub Respository](https://github.com/sparkfun/SparkFun_XBee_Explorer_USB-C)
