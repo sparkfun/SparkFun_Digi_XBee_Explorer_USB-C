@@ -12,7 +12,7 @@ icon: material/book-open-page-variant
     ---
 
     <figure markdown>
-    ![Product Thumbnail]([assets/img/22043-XBee_Explorer_USB-C-01.jpg](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg))
+    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg)
     </figure></a>
     
     <center>
@@ -20,6 +20,8 @@ icon: material/book-open-page-variant
     </center>
 
 </div>
+
+
 
 ## Required Materials
 
