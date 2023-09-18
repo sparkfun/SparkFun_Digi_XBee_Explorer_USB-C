@@ -22,7 +22,6 @@ icon: material/book-open-page-variant
 </div>
 
 
-
 ## Required Materials
 
 To follow along with this tutorial, you will need the following materials. You may not need everything though depending on what you have. Add it to your cart, read through the guide, and adjust the cart as necessary.
@@ -31,14 +30,14 @@ To follow along with this tutorial, you will need the following materials. You m
     <tr>
         <td>
             <a href="https://www.sparkfun.com/products/22043">
-                <center><img src="https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg" alt="SparkFun XBee Explorer USB-C" height="140"></center>
+                <center><img src="https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun XBee Explorer USB-C"></center>
                 <h3 class="title">SparkFun XBee Explorer USB-C</h3>
             </a>
             WRL-21636
         </td>
         <td>
             <a href="https://www.sparkfun.com/products/14743">
-                <center><img src="https://cdn.sparkfun.com/c/178-100/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg" alt="USB 3.1 Cable A to C - 3 Foot" height="140">
+                <center><img src="https://cdn.sparkfun.com/c/178-100/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="USB 3.1 Cable A to C - 3 Foot" >
                 </center>
                 <h3 class="title">USB 3.1 Cable A to C - 3 Foot</h3>
             </a>

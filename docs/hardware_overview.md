@@ -10,7 +10,7 @@ We've kept the XBee socket consistent with the XBee pinout, so this breakout boa
 
 
 <figure markdown>
-[![XBeeSocket](assets/img/22043-XBee-Explorer-USB-C-XBeeSocket.jpg){ width="400" }](assets/imgs/assets/img/22043-XBee-Explorer-USB-C-XBeeSocket.jpg "Click to enlarge")
+[![XBeeSocket](assets/img/22043-SparkFun-XBee-Explorer-USB-C-XBeeSocket.jpg){ width="400" }](assets/imgs/assets/img/22043-SparkFun-XBee-Explorer-USB-C-XBeeSocket.jpg "Click to enlarge")
 <figcaption markdown>XBeeSocket</figcaption>
 </figure>
 
@@ -20,10 +20,19 @@ The USB-C connector on the board is for UART. Input VCC range is between <b>3.3V
 
 
 <figure markdown>
-[![USB-C Connector](assets/img/22043-XBee-Explorer-USB-C-USBC.jpg){ width="400" }](assets/img/22043-XBee-Explorer-USB-C-USBC.jpg "Click to enlarge")
+[![USB-C Connector](assets/img/22043-SparkFun-XBee-Explorer-USB-C-USBC.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-USBC.jpg "Click to enlarge")
 <figcaption markdown>USB-C</figcaption>
 </figure>
 
+
+## Buck Converter - AP63203
+
+The AP63203 Buck Converter ensures appropriate power supply to the components of the board. VIN range is 3.8V-5.5V. Output is 2A max.
+
+<figure markdown>
+[![USB-C Connector](assets/img/22043-SparkFun-XBee-Explorer-USB-C-BuckConverter.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-BuckConverter.jpg "Click to enlarge")
+<figcaption markdown>AP63203 Buck Converter</figcaption>
+</figure>
 
 
 ## LEDs
@@ -31,7 +40,7 @@ The USB-C connector on the board is for UART. Input VCC range is between <b>3.3V
 There are three LEDs on the board: 
 
 <figure markdown>
-[![LEDs](assets/img/22043-XBee-Explorer-USB-C-LEDS.jpg){ width="400" }](assets/img/22043-XBee-Explorer-USB-C-LEDS.jpg "Click to enlarge")
+[![LEDs](assets/img/22043-SparkFun-XBee-Explorer-USB-C-LEDs.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-LEDs.jpg "Click to enlarge")
 <figcaption markdown>LEDs</figcaption>
 </figure>
 
@@ -72,7 +81,7 @@ The RSSI/PWM output is enabled continuously, unlike other XBee products where th
 We've broken out the XBee pins to plated through holes on either side of the board. 
 
 <figure markdown>
-[![GPIO](assets/img/22043-XBee-Explorer-USB-C-GPIO-PTHs.jpg){ width="400" }](assets/img/22043-XBee-Explorer-USB-C-GPIO-PTHs.jpg "Click to enlarge")
+[![GPIO](assets/img/22043-SparkFun-XBee-Explorer-USB-C-GPIO.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-GPIO.jpg "Click to enlarge")
 <figcaption markdown>GPIO</figcaption>
 </figure>
 
@@ -92,7 +101,7 @@ We've broken out the XBee pins to plated through holes on either side of the boa
 The I<sup>2</sup>C jumper pulls the SDA and SCL pins to VDD (normally 3.3V) through two 2.2K Ohm resistors. If you have multiple Qwiic devices on the same bus you may want to disable these by opening the jumper (assuming they are also operating at 3.3V logic).
 
 <figure markdown>
-[![GPIO](assets/img/22043-XBee-Explorer-USB-C-I2CJumpers.jpg){ width="400" }](assets/img/22043-XBee-Explorer-USB-C-I2CJumpers.jpg "Click to enlarge")
+[![I2C Jumpers](assets/img/22043-SparkFun-XBee-Explorer-USB-C-I2CJumper.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-I2CJumper.jpg "Click to enlarge")
 <figcaption markdown>I<sup>2</sup>C Jumpers</figcaption>
 </figure>
 
@@ -105,7 +114,7 @@ If power consumption is an issue (or if you just don't like the LEDs), cut the r
 * RSSI: Yellow
 
 <figure markdown>
-[![GPIO](assets/img/22043-XBee-Explorer-USB-C-LEDJumpers.jpg){ width="400" }](assets/img/22043-XBee-Explorer-USB-C-LEDJumpers.jpg "Click to enlarge")
+[![LED Jumpers](assets/img/22043-SparkFun-XBee-Explorer-USB-C-LEDJumpers.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-LEDJumpers.jpg "Click to enlarge")
 <figcaption markdown>LED Jumpers</figcaption>
 </figure>
 
@@ -114,7 +123,7 @@ If power consumption is an issue (or if you just don't like the LEDs), cut the r
 For most applications, the single point grounding of the Direct USB or UART at the USB-C connector is sufficient. However, should you run into problems with EMI/EMC, we've provided a jumper that allows you to disconnect the connector from ground.
 
 <figure markdown>
-[![GPIO](assets/img/22043-XBee-Explorer-USB-C-ShieldJumper.jpg){ width="400" }](assets/img/22043-XBee-Explorer-USB-C-ShieldJumper.jpg "Click to enlarge")
+[![Shield Jumper](assets/img/22043-SparkFun-XBee-Explorer-USB-C-ShieldJumpers.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-ShieldJumpers.jpg "Click to enlarge")
 <figcaption markdown>Shield Jumper</figcaption>
 </figure>
 
