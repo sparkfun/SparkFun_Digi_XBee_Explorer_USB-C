@@ -34,6 +34,14 @@ The AP63203 Buck Converter ensures appropriate power supply to the components of
 <figcaption markdown>AP63203 Buck Converter</figcaption>
 </figure>
 
+## USB to UART Bridge
+
+The FT231XS translates data between your computer and the XBee. This is one of our favorite chips because it supports all computer platforms and it's easy to work with. If this is the first FTDI chip you've ever connected to your computer (it probably won't be your last), there is some driver installation to get out of the way. We've written a tutorial detailing [How to Install FTDI Drivers tutorial](tutorials/74).
+
+<figure markdown>
+[![FT231XS USB to UART Bridge](assets/img/22043-SparkFun-XBee-Explorer-USB-C-FT231XS.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-FT231XS.jpg "Click to enlarge")
+<figcaption markdown>FT231XS USB to UART Bridge</figcaption>
+</figure>
 
 ## LEDs
 
