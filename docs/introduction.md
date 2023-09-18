@@ -12,15 +12,9 @@ icon: material/book-open-page-variant
     ---
 
     <figure markdown>
-    ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg)
+    ![Product Thumbnail](assets/img/22043-XBee_Explorer_USB-C-01.jpg)
     </figure></a>
-
-    <center>
-    <article class="video_desc">
-    <iframe src="<Embedded Video>" title="Product Showcase: SparkFun XBee Explorer USB-C" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
-    </center>
-
+    
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22043){ .md-button .md-button--primary }
     </center>
