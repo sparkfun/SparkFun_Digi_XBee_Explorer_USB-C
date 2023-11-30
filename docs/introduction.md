@@ -16,6 +16,7 @@ icon: material/book-open-page-variant
     </figure></a>
     
 -    The SparkFun XBee Explorer USB-C is the perfect option for those who want extensive XBee development functionality but don't need everything provided by the XBee Development Board. This board gives you access to the pin functionality of the XBee, includes a single USB-C connector for UART communication, a Qwiic connector for all those lovely I<sup>2</sup>C sensors, as well as Reset and D0 buttons.
+
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22043){ .md-button .md-button--primary }
     </center>
