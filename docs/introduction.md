@@ -36,6 +36,13 @@ To follow along with this tutorial, you will need the following materials. You m
             WRL-21636
         </td>
         <td>
+            <a href="https://www.sparkfun.com/products/22330">
+                <center><img src="https://cdn.sparkfun.com/assets/parts/2/1/8/9/4/22032-_XBee_Explorer_Regulated-_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Digi XBee 3 North America LTE Cat 1, 3G, GNSS, no SIM" height="140"></center>
+                <h3 class="title">Digi XBee 3 North America LTE Cat 1, 3G, GNSS, no SIM</h3>
+            </a>
+            WRL-22330
+        </td>
+        <td>
             <a href="https://www.sparkfun.com/products/14743">
                 <center><img src="https://cdn.sparkfun.com/c/178-100/assets/parts/1/2/9/7/2/14743-USB_3.1_Cable_A_to_C_-_3_Foot-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="USB 3.1 Cable A to C - 3 Foot" >
                 </center>
@@ -79,7 +86,7 @@ As a more professionally oriented product, we will skip over the more fundamenta
 </div>
 </center>
 
-One of the new, advanced features of our Processor Boards is that they take advantage of the [Qwiic connect system](https://www.sparkfun.com/qwiic). We recommend familiarizing yourself with the **Logic Levels** and **I<sup>2</sup>C** tutorials.  Click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
+One of the features of the XBee USB-C is that it takes advantage of the [Qwiic connect system](https://www.sparkfun.com/qwiic). We recommend familiarizing yourself with the **Logic Levels** and **I<sup>2</sup>C** tutorials.  Click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
 
 <center>
     <iframe width="600" height="327" src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
