@@ -93,6 +93,16 @@ We've broken out the XBee pins to plated through holes on either side of the boa
 <figcaption markdown>GPIO</figcaption>
 </figure>
 
+
+## Buttons
+
+There are two buttons on the board - D0 and Reset. The Reset button allows the user to reset the running program; the D0 button is connected to GPIO to be used as the user sees fit. 
+
+<figure markdown>
+[![D0 and Reset Buttons](assets/img/22043-SparkFun-XBee-Explorer-USB-C-Button.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-Button.jpg "Click to enlarge")
+<figcaption markdown>D0 and Reset Buttons</figcaption>
+</figure>
+
 ## Jumpers
 
 ??? note "Never modified a jumper before?"
