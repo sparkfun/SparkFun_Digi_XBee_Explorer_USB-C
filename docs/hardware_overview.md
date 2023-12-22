@@ -43,6 +43,18 @@ The FT231XS translates data between your computer and the XBee. This is one of o
 <figcaption markdown>FT231XS USB to UART Bridge</figcaption>
 </figure>
 
+
+## Qwiic Connector
+
+The Qwiic connector on the SparkFun XBee Regulated Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. Note that I<sup>2</sup>C functionality is not enabled by default. 
+
+<figure markdown>
+[![Qwiic Connector](assets/img/22043-SparkFun-XBee-Explorer-USB-C-QwiicConnex.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-QwiicConnex.jpg "Click to enlarge")
+<figcaption markdown>Qwiic Connector</figcaption>
+</figure>
+
+
+
 ## LEDs
 
 There are three LEDs on the board: 
