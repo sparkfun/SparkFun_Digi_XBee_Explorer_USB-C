@@ -15,7 +15,7 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg)
     </figure></a>
     
--    The SparkFun XBee Explorer USB-C is the perfect option for those who want extensive XBee development functionality but don't need everything provided by the XBee Development Board. This board gives you access to the pin functionality of the XBee, includes a single USB-C connector for UART communication, a Qwiic connector for all those lovely I<sup>2</sup>C sensors, as well as Reset and D0 buttons.
+-    Unleash the power of XBee modules with the next-gen SparkFun XBee Explorer USB-C! This compact, easy-to-use adapter is the perfect bridge between your computer and any Digi XBee module, making prototyping and development a breeze. Whether you're a seasoned IoT architect or just starting your wireless journey, the XBee Explorer USB-C empowers you to bring your ideas to life. The XBee Explorer USB-C makes it possible to build sensor networks for remote monitoring, control devices wirelessly from your PC, prototype real-time data acquisition systems, and more! This board gives you access to the pin functionality of the XBee, including a single USB-C connector for UART communication, a Qwiic connector for I<sup>2</sup>C-capable sensors and peripheries, and Reset and D0 buttons.
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22043){ .md-button .md-button--primary }
