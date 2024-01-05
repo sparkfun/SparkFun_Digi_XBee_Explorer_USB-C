@@ -6,7 +6,7 @@ icon: material/book-open-page-variant
 <div class="grid cards desc" markdown>
 
 -    <a href="https://www.sparkfun.com/products/22043">
-    **SparkFun XBee Explorer USB-C**<br>
+    **SparkFun Digi XBee® Explorer USB-C**<br>
     **SKU:** WRL-22043
 
     ---
@@ -15,7 +15,7 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg)
     </figure></a>
     
--    Unleash the power of XBee modules with the next-gen SparkFun XBee Explorer USB-C! This compact, easy-to-use adapter is the perfect bridge between your computer and any Digi XBee module, making prototyping and development a breeze. Whether you're a seasoned IoT architect or just starting your wireless journey, the XBee Explorer USB-C empowers you to bring your ideas to life. The XBee Explorer USB-C makes it possible to build sensor networks for remote monitoring, control devices wirelessly from your PC, prototype real-time data acquisition systems, and more! This board gives you access to the pin functionality of the XBee, including a single USB-C connector for UART communication, a Qwiic connector for I<sup>2</sup>C-capable sensors and peripheries, and Reset and D0 buttons.
+-    Unleash the power of XBee modules with the next-gen SparkFun Digi XBee® Explorer USB-C! This compact, easy-to-use adapter is the perfect bridge between your computer and any Digi XBee module, making prototyping and development a breeze. Whether you're a seasoned IoT architect or just starting your wireless journey, the XBee Explorer USB-C empowers you to bring your ideas to life. The XBee Explorer USB-C makes it possible to build sensor networks for remote monitoring, control devices wirelessly from your PC, prototype real-time data acquisition systems, and more! This board gives you access to the pin functionality of the XBee, including a single USB-C connector for UART communication, a Qwiic connector for I<sup>2</sup>C-capable sensors and peripheries, and Reset and D0 buttons.
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/22043){ .md-button .md-button--primary }
@@ -38,7 +38,7 @@ To follow along with this tutorial, you will need the following materials. You m
 
     ---
 
-    **SparkFun XBee Explorer USB-C**<br>
+    **SparkFun Digi XBee® Explorer USB-C**<br>
     WRL-22043</a>
 
 -   <a href="https://www.sparkfun.com/products/22329">
@@ -108,7 +108,7 @@ As a more professionally oriented product, we will skip over the more fundamenta
 </div>
 </center>
 
-The SparkFun XBee Regulated Board takes advantage of the [Qwiic connect system](https://www.sparkfun.com/qwiic). We recommend familiarizing yourself with the **Logic Levels** and **I<sup>2</sup>C** tutorials.  Click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
+The SparkFun Digi XBee® Explorer USB-C Board takes advantage of the [Qwiic connect system](https://www.sparkfun.com/qwiic). We recommend familiarizing yourself with the **Logic Levels** and **I<sup>2</sup>C** tutorials.  Click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
 
 <center>
     <iframe width="600" height="327" src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

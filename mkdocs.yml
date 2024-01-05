@@ -1,11 +1,11 @@
 # Documentation page information
-site_name: SparkFun XBee Explorer USB-C Board Hookup Guide
-site_description: A guide for getting started with the SparkFun XBee SparkFun_XBee_Explorer_USB-C Board
-site_url: https://sparkfun.github.io/SparkFun_XBee_Explorer_USB-C
+site_name: SparkFun Digi XBee® Explorer USB-C Board Hookup Guide
+site_description: A guide for getting started with the SparkFun XBee SparkFun_Digi_XBee_Explorer_USB-C Board
+site_url: https://sparkfun.github.io/SparkFun_Digi_XBee_Explorer_USB-C
 site_author: SparkFun Electronics
 
-repo_url: https://github.com/sparkfun/SparkFun_XBee_Explorer_USB-C
-repo_name: sparkfun/SparkFun_XBee_Explorer_USB-C
+repo_url: https://github.com/sparkfun/SparkFun_Digi_XBee_Explorer_USB-C
+repo_name: sparkfun/SparkFun_Digi_XBee_Explorer_USB-C
 
 copyright:
   Copyright 2023 - <a href="https://www.sparkfun.com/" target="_blank" rel="noopener">SparkFun Electronics&#174;<br>

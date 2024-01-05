@@ -1,9 +1,9 @@
-SparkFun XBee Explorer USB-C
+SparkFun Digi XBee® Explorer USB-C
 ========================================
 
-[![SparkFun XBee Explorer USB-C](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg)](https://www.sparkfun.com/products/22043)
+[![SparkFun Digi XBee® Explorer USB-C](https://cdn.sparkfun.com/assets/parts/2/1/9/1/0/22043-_XBee_Explorer_USB-C-_01.jpg)](https://www.sparkfun.com/products/22043)
 
-[*SparkFun XBee Explorer USB-C (22043)*](https://www.sparkfun.com/products/22043)
+[*SparkFun Digi XBee® Explorer USB-C (22043)*](https://www.sparkfun.com/products/22043)
 
 <Basic description of the part.>
 
@@ -15,7 +15,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](http://docs.sparkfun.com/SparkFun_XBee_Explorer_USB-C)** - Basic hookup guide for the SparkFUn XBee Explorer USB-C.
+* **[Hookup Guide](http://docs.sparkfun.com/SparkFun_Digi_XBee_Explorer_USB-C)** - Basic hookup guide for the SparkFun Digi XBee® Explorer USB-C.
 
 
 License Information

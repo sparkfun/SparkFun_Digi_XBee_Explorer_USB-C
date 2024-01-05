@@ -4,9 +4,9 @@ icon: material/cog
 
 <!-- This section goes into detail about the various components on the product, solder jumpers as well as the board dimensions with a dimensional drawing exported from Eagle. -->
 
-## XBee Smart Modem Socket
+## Digi XBee Smart Modem Socket
 
-We've kept the XBee socket consistent with the XBee pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee boards. The [Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) is a great bet. 
+We've kept the Digi XBee socket consistent with the Digi XBee pinout, so this breakout board is backwards compatible. In order to take full advantage of this board, we recommend one of the newer Digi XBee boards. The [Digi XBee 3 Low-Power LTE-M/NB-IoT, GNSS, no SIM](https://www.sparkfun.com/products/22329) is a great bet. 
 
 
 <figure markdown>
@@ -46,7 +46,7 @@ The FT231XS translates data between your computer and the XBee. This is one of o
 
 ## Qwiic Connector
 
-The Qwiic connector on the SparkFun XBee Regulated Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. Note that I<sup>2</sup>C functionality is not enabled by default. 
+The Qwiic connector on the SparkFun Digi XBee® Explorer USB-C Board provides power and I<sup>2</sup>C connectivity to Qwiic breakout boards. Note that I<sup>2</sup>C functionality is not enabled by default. 
 
 <figure markdown>
 [![Qwiic Connector](assets/img/22043-SparkFun-XBee-Explorer-USB-C-QwiicConnex.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-QwiicConnex.jpg "Click to enlarge")
@@ -71,7 +71,7 @@ This LED lights up when power is provided to the board.
 
 ###ASC
 
-This LED on the development board blinks when the XBee is registered to the cellular network.
+This LED on the development board blinks when the Digi XBee is registered to the cellular network.
 
 | Blink | Timing | Meaning |
 | --- | --- | --------- |
@@ -86,7 +86,7 @@ This LED on the development board blinks when the XBee is registered to the cell
 This LED is the Received Signal Strength Indicator. When configured, it reflects the received signal strength.
 
 RSSI PWM
-The RSSI/PWM output is enabled continuously, unlike other XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
+The RSSI/PWM output is enabled continuously, unlike other Digi XBee products where the output is enabled for a short period of time after each received transmission. If running on the XBIB development board, DIO10 is connected to the RSSI LEDs, which may be interpreted as follows:
 
 | PWM duty cycle | Number of LEDs turned on | Received signal strength (dBm) |
 | --- | --- | --------- |
@@ -98,7 +98,7 @@ The RSSI/PWM output is enabled continuously, unlike other XBee products where th
 
 ## GPIO
 
-We've broken out the XBee pins to plated through holes on either side of the board. 
+We've broken out the Digi XBee pins to plated through holes on either side of the board. 
 
 <figure markdown>
 [![GPIO](assets/img/22043-SparkFun-XBee-Explorer-USB-C-GPIO.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-GPIO.jpg "Click to enlarge")
@@ -162,16 +162,16 @@ For most applications, the single point grounding of the Direct USB or UART at t
 
 ## Board Dimensions
 
-The board dimensions are illustrated in the drawing below; the listed measurements are in inches.
+The SparkFun Digi XBee® Explorer USB-C Board dimensions are illustrated in the drawing below; the listed measurements are in inches.
 
 <figure markdown>
-[![Board Dimensions](assets/board_files/SparkFun_XBee_Explorer_USB-C_BoardDimensions.png){ width="400" }](assets/board_files/SparkFun_XBee_Explorer_USB-C_BoardDimensions.png "Click to enlarge")
+[![Board Dimensions](assets/board_files/22043_SparkFun_Digi_XBee_Explorer_USB-C_BoardOutline_Crop.png){ width="400" }](assets/board_files/22043_SparkFun_Digi_XBee_Explorer_USB-C_BoardOutline_Crop.png "Click to enlarge")
 <figcaption markdown> Board Dimensions</figcaption>
 </figure>
 
 
 ??? tip "Need more measurements?"
-	For more information about the board's dimensions, users can download the [Eagle files](assets/board_files/SparkFun_XBee_Explorer_USB-C-EagleFiles.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
+	For more information about the board's dimensions, users can download the [Eagle files](assets/board_files/22043_SparkFun_Digi_XBee_Explorer_USB-C_EagleFiles.zip) for the board. These files can be opened in Eagle and additional measurements can be made with the dimensions tool.
 
 	??? info ":octicons-download-16:{ .heart } Eagle - Free Download!"
 		Eagle is a [CAD]("computer-aided design") program for electronics that is free to use for hobbyists and students. However, it does require an account registration to utilize the software.
