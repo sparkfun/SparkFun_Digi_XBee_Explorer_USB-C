@@ -16,7 +16,8 @@ We've kept the Digi XBee socket consistent with the Digi XBee pinout, so this br
 
 ## Power
 
-The USB-C connector on the board is for UART. Input VCC range is between <b>3.3V-4.3V</b>. 
+The USB-C connector on the board provides power and is used to communicate with the Digi XBee board via
+UART. Input VCC range is between <b>3.3V-5.5V</b>. 
 
 
 <figure markdown>
