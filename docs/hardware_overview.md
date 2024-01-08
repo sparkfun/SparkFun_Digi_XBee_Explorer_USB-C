@@ -27,7 +27,7 @@ The USB-C connector on the board is for UART. Input VCC range is between <b>3.3V
 
 ## Buck Converter - AP63203
 
-The AP63203 Buck Converter ensures appropriate power supply to the components of the board. VIN range is 3.8V-5.5V. Output is 2A max.
+The AP63203 is a 2A, synchronous buck converter with a wide input voltage range that fully integrates a 125mΩ high-side power MOSFET and a 68mΩ lowside power MOSFET to provide high-efficiency step-down DC/DC conversion. VIN range is <b>3.8V-5.5V</b>. Output is 2A max. 
 
 <figure markdown>
 [![USB-C Connector](assets/img/22043-SparkFun-XBee-Explorer-USB-C-BuckConverter.jpg){ width="400" }](assets/img/22043-SparkFun-XBee-Explorer-USB-C-BuckConverter.jpg "Click to enlarge")
